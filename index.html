@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Student Biodata / CV</title>
+    </head>
+
+    <body>
+        <center>
+        <div>
+            <h2><b>Student's Basic Details</b></h2>
+        <form action="connect.php" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        Name of Student :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Name" Required name="name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                       Roll Number : 
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Roll Number" name="rollnumber">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Date of Birth :
+                    </td>
+                    <td>
+                        <input type = "date" placeholder="DOB" name="dob">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Address :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Address" name="address">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Mobile Number :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Mobile Number" name="phone">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        E-mail id :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Institute mail id" name="mailid">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 1st Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem1">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 2nd Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem2">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 3rd Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem3">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 4th Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem4">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 5th Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem5">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 6th Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem6">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 7th Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem7">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        SGPA - 8th Sem :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="SGPA" name="sem8">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        CGPA :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="CGPA" name="cgpa">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Hobbies :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="Hobbies" name="hobbies">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Hosteller / Day Scholar :
+                    </td>
+                    <td>
+                        <select name="ishostel">
+                            <option>Hosteller</option>
+                            <option>Day Scholar</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        References :
+                    </td>
+                    <td>
+                        <input type = "text" placeholder="References if any" name="refer">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="Submit" value="Submit">
+                    </td>
+                </tr>
+
+
+            </table>
+        </form>
+        </div>
+        <br>
+        <div>
+            <h2><b>Get Student Details</b></h2>
+        <form action="index.php" method="post">
+            <label>Search</label>
+            <input type="text" placeholder="Enter thr Roll Number" name="search">
+            <input type="submit" name="submit">    
+        </form>
+        </div>
+        </center>
+    </body>
+</html>
